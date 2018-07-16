@@ -15,7 +15,8 @@ props.setProperty(TwitterSource.CONSUMER_SECRET, keys.CONSUMER_SECRET);
 props.setProperty(TwitterSource.TOKEN, keys.TOKEN);
 props.setProperty(TwitterSource.TOKEN_SECRET, keys.TOKEN_SECRET);
 ```
-If you dont have twitter app at Twitter Application Management, then generate a new app at https://apps.twitter.com/. Then execute the `run.java` file
+If you dont have twitter app at Twitter Application Management, then generate a new app at https://apps.twitter.com/.
+After the keys are set, then execute the `run.java` file.
 
 ## Sample Output
 
