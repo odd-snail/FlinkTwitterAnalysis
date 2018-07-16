@@ -7,9 +7,15 @@ This project consists of a basic example in which a Flink CEP enine ingests the 
 
 ## Getting Started
 
-Download the project and execute the `run.java` file
+Download the project and replace `keys.CONSUMER_KEY`, `keys.CONSUMER_SECRET`, `keys.TOKEN` and `keys.TOKEN_SECRET` of your twitter app. 
 
-
+```
+props.setProperty(TwitterSource.CONSUMER_KEY, keys.CONSUMER_KEY);
+props.setProperty(TwitterSource.CONSUMER_SECRET, keys.CONSUMER_SECRET);
+props.setProperty(TwitterSource.TOKEN, keys.TOKEN);
+props.setProperty(TwitterSource.TOKEN_SECRET, keys.TOKEN_SECRET);
+```
+If you dont have twitter app at Twitter Application Management, then generate a new app at https://apps.twitter.com/. Then execute the `run.java` file
 
 ## Sample Output
 
